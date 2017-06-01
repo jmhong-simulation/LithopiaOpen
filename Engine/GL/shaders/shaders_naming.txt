@@ -1,0 +1,9 @@
+p: vertex positions
+i: vertex indexes (mostly for triangular connections)
+n: vertex normals (for phong shading)
+c: vertex colors
+t: texture coordinates
+
+p receives color
+pc 
+pin receives material and lights (phong)

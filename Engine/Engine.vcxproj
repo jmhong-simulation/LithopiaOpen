@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Algorithm\MergeSort.cpp" />
+    <ClCompile Include="CONVENTIONAL_MACROS.cpp" />
+    <ClCompile Include="DataStructure\ArrayTools.cpp" />
+    <ClCompile Include="DataStructure\CSRMatrix.cpp" />
+    <ClCompile Include="DataStructure\GridAdaptive3D.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="DataStructure\GridUniform1D.cpp" />
+    <ClCompile Include="DataStructure\GridUniform2D.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="DataStructure\GridUniform3D.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="DataStructure\NonlinearMapping1D.cpp" />
+    <ClCompile Include="DataStructure\ubDataStructure.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="DataStructure\VectorND.cpp" />
+    <ClCompile Include="Framework\DataDepot.cpp" />
+    <ClCompile Include="Framework\Object.cpp" />
+    <ClCompile Include="Framework\TaskManager.cpp" />
+    <ClCompile Include="Framework\World.cpp" />
+    <ClCompile Include="Geometry\BOX_2D.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Geometry\BOX_3D.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Geometry\DynamicContour2D.cpp" />
+    <ClCompile Include="Geometry\DynamicEdge.cpp" />
+    <ClCompile Include="Geometry\DynamicHole.cpp" />
+    <ClCompile Include="Geometry\DynamicParticles.cpp" />
+    <ClCompile Include="Geometry\DynamicTriangle.cpp" />
+    <ClCompile Include="Geometry\DynamicTriangularSurface.cpp" />
+    <ClCompile Include="Geometry\DynamicVertex.cpp" />
+    <ClCompile Include="Geometry\intersection.cpp" />
+    <ClCompile Include="Geometry\LevelsetUniform2D.cpp" />
+    <ClCompile Include="Geometry\LineSegment2D.cpp" />
+    <ClCompile Include="Geometry\LINE_SEGMENT.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Geometry\LITHOPHANE.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Geometry\MarchingCubesAlgorithm.cpp" />
+    <ClCompile Include="Geometry\MarchingTriangles.cpp" />
+    <ClCompile Include="Geometry\OBJ_FILE_READER.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Geometry\PLANE.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Geometry\Quadrilateral2D.cpp" />
+    <ClCompile Include="Geometry\RAY.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Geometry\SHELL_OF_REVOLUTION.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Geometry\SLICER.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Geometry\Sphere2D.cpp" />
+    <ClCompile Include="Geometry\Sphere3D.cpp" />
+    <ClCompile Include="Geometry\StaticTriangle.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Geometry\StaticTriangleOperations.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Geometry\StaticTriangularSurface.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Geometry\Triangle2D.cpp" />
+    <ClCompile Include="Geometry\ubGeometry.cpp" />
+    <ClCompile Include="Geometry\UV_TO_XYZ.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Geometry\VERTEX_OPERATIONS.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Image\IMAGE_2D.cpp" />
+    <ClCompile Include="Math\Matrix2X2.cpp" />
+    <ClCompile Include="Math\Matrix3X3.cpp" />
+    <ClCompile Include="Math\MLSLineConstraint2D.cpp" />
+    <ClCompile Include="Math\MLSPointConstraint2D.cpp" />
+    <ClCompile Include="Math\MovingLeastSquares.cpp" />
+    <ClCompile Include="Math\MovingLeastSquares2D.cpp" />
+    <ClCompile Include="Math\Quaternion.cpp" />
+    <ClCompile Include="Operations\SMOOTHING_UNIFORM_2d.cpp" />
+    <ClCompile Include="Parallelism\MultiThreading.cpp" />
+    <ClCompile Include="Simulation\CookieCutterMaker.cpp" />
+    <ClCompile Include="Simulation\FluidSimulation.cpp" />
+    <ClCompile Include="Simulation\LevelsetEditor2D.cpp" />
+    <ClCompile Include="Simulation\LithophaneMaker.cpp" />
+    <ClCompile Include="Simulation\ParticleDataPV3D.cpp" />
+    <ClCompile Include="Simulation\Photo2_5D.cpp" />
+    <ClCompile Include="Simulation\ShrinkWrappingExample2D.cpp" />
+    <ClCompile Include="Simulation\SmokeSimulation2D.cpp" />
+    <ClCompile Include="Simulation\SortedParticlesUniform3D.cpp" />
+    <ClCompile Include="Simulation\SoundTo3D.cpp" />
+    <ClCompile Include="Simulation\VolumeEditor.cpp" />
+    <ClCompile Include="Sound\Fourier.cpp" />
+    <ClCompile Include="Sound\Recorder.cpp" />
+    <ClCompile Include="Utilities\RandomNumberGenerator.cpp" />
+    <ClCompile Include="Utilities\ScriptBlock.cpp" />
+    <ClCompile Include="Utilities\ScriptParameterList.cpp" />
+    <ClCompile Include="Utilities\ScriptReader.cpp" />
+    <ClCompile Include="Utilities\ScriptUtility.cpp" />
+    <ClCompile Include="Utilities\Timer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Algorithm\MergeSort.h" />
+    <ClInclude Include="CONVENTIONAL_MACROS.h" />
+    <ClInclude Include="DataStructure\Array1D.h" />
+    <ClInclude Include="DataStructure\Array2D.h" />
+    <ClInclude Include="DataStructure\Array3D.h" />
+    <ClInclude Include="DataStructure\ArrayTools.h" />
+    <ClInclude Include="DataStructure\CSRMatrix.h" />
+    <ClInclude Include="DataStructure\DynamicArray.h" />
+    <ClInclude Include="DataStructure\GridAdaptive3D.h" />
+    <ClInclude Include="DataStructure\GridUniform1D.h" />
+    <ClInclude Include="DataStructure\GridUniform2D.h" />
+    <ClInclude Include="DataStructure\GridUniform3D.h" />
+    <ClInclude Include="DataStructure\LinkedArray.h" />
+    <ClInclude Include="DataStructure\LinkedArrayBlock.h" />
+    <ClInclude Include="DataStructure\NonlinearMapping1D.h" />
+    <ClInclude Include="DataStructure\SinglyLinkedList.h" />
+    <ClInclude Include="DataStructure\Vector2D.h" />
+    <ClInclude Include="DataStructure\Vector3D.h" />
+    <ClInclude Include="DataStructure\Vector4D.h" />
+    <ClInclude Include="DataStructure\VectorND.h" />
+    <ClInclude Include="Framework\DataDepot.h" />
+    <ClInclude Include="Framework\Object.h" />
+    <ClInclude Include="Framework\TaskManager.h" />
+    <ClInclude Include="Framework\World.h" />
+    <ClInclude Include="GENERIC_DEFINITIONS.h" />
+    <ClInclude Include="Geometry\BOX_2D.h" />
+    <ClInclude Include="Geometry\BOX_3D.h" />
+    <ClInclude Include="Geometry\CUBIC_POLYNOMIAL.h" />
+    <ClInclude Include="Geometry\DynamicContour2D.h" />
+    <ClInclude Include="Geometry\DynamicEdge.h" />
+    <ClInclude Include="Geometry\DynamicHole.h" />
+    <ClInclude Include="Geometry\DynamicParticles.h" />
+    <ClInclude Include="Geometry\DynamicTriangle.h" />
+    <ClInclude Include="Geometry\DynamicTriangularSurface.h" />
+    <ClInclude Include="Geometry\DynamicVertex.h" />
+    <ClInclude Include="Geometry\Intersection.h" />
+    <ClInclude Include="Geometry\LevelsetUniform2D.h" />
+    <ClInclude Include="Geometry\LineSegment2D.h" />
+    <ClInclude Include="Geometry\LineSegmentUV3D.h" />
+    <ClInclude Include="Geometry\LINE_SEGMENT.h" />
+    <ClInclude Include="Geometry\LITHOPHANE.h" />
+    <ClInclude Include="Geometry\MarchingCubesAlgorithm.h" />
+    <ClInclude Include="Geometry\MarchingCubesAlgorithmTables.h" />
+    <ClInclude Include="Geometry\MarchingTriangles.h" />
+    <ClInclude Include="Geometry\OBJ_FILE_READER.h" />
+    <ClInclude Include="Geometry\ParametricCurve.h" />
+    <ClInclude Include="Geometry\PARAMETRIC_CURVE_SEGMENT.h" />
+    <ClInclude Include="Geometry\PLANE.h" />
+    <ClInclude Include="Geometry\Quadrilateral2D.h" />
+    <ClInclude Include="Geometry\RAY.h" />
+    <ClInclude Include="Geometry\SHELL_OF_REVOLUTION.h" />
+    <ClInclude Include="Geometry\SLICER.h" />
+    <ClInclude Include="Geometry\Sphere2D.h" />
+    <ClInclude Include="Geometry\Sphere3D.h" />
+    <ClInclude Include="Geometry\StaticTriangle.h" />
+    <ClInclude Include="Geometry\StaticTriangleOperations.h" />
+    <ClInclude Include="Geometry\StaticTriangularSurface.h" />
+    <ClInclude Include="Geometry\Triangle2D.h" />
+    <ClInclude Include="Geometry\UV_TO_XYZ.h" />
+    <ClInclude Include="Geometry\VERTEX_OPERATIONS.h" />
+    <ClInclude Include="Image\BMP_RGB.h" />
+    <ClInclude Include="Image\IMAGE_2D.h" />
+    <ClInclude Include="Math\Matrix2X2.h" />
+    <ClInclude Include="Math\Matrix3X3.h" />
+    <ClInclude Include="Math\MatrixMXN.h" />
+    <ClInclude Include="Math\MatrixNXN.h" />
+    <ClInclude Include="Math\MLSLineConstraint2D.h" />
+    <ClInclude Include="Math\MLSPointConstraint2D.h" />
+    <ClInclude Include="Math\MovingLeastSquares.h" />
+    <ClInclude Include="Math\MovingLeastSquares2D.h" />
+    <ClInclude Include="Math\Quaternion.h" />
+    <ClInclude Include="Operations\SMOOTHING_UNIFORM_2D.h" />
+    <ClInclude Include="Parallelism\MultiThreading.h" />
+    <ClInclude Include="Simulation\CookieCutterMaker.h" />
+    <ClInclude Include="Simulation\FluidSimulation.h" />
+    <ClInclude Include="Simulation\LevelsetEditor2D.h" />
+    <ClInclude Include="Simulation\LithophaneMaker.h" />
+    <ClInclude Include="Simulation\ParticleDataPV3D.h" />
+    <ClInclude Include="Simulation\Photo2_5D.h" />
+    <ClInclude Include="Simulation\ShrinkWrappingExample2D.h" />
+    <ClInclude Include="Simulation\SmokeSimulation2D.h" />
+    <ClInclude Include="Simulation\SortedParticlesUniform3D.h" />
+    <ClInclude Include="Simulation\SoundTo3D.h" />
+    <ClInclude Include="Simulation\VolumeEditor.h" />
+    <ClInclude Include="Sound\Fourier.h" />
+    <ClInclude Include="Sound\Recorder.h" />
+    <ClInclude Include="Utilities\RandomNumberGenerator.h" />
+    <ClInclude Include="Utilities\ScriptBlock.h" />
+    <ClInclude Include="Utilities\ScriptParameter.h" />
+    <ClInclude Include="Utilities\ScriptParameterList.h" />
+    <ClInclude Include="Utilities\ScriptReader.h" />
+    <ClInclude Include="Utilities\ScriptUtility.h" />
+    <ClInclude Include="Utilities\Timer.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{11F1482F-8FC0-4F30-883D-49D6E5D7C73F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Engine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>UNICODE;WIN32;WIN64;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>..\Engine;..\External_libraries\DevIL-SDK-x64-1.7.8\include;..\External_libraries\boost_1_55_0;..\External_libraries;..\External_libraries\OpenCTM-1.0.3\include</AdditionalIncludeDirectories>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level1</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>UNICODE;WIN32;WIN64;UNICODE;WIN32;WIN64;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>D:\LIGHTNING\External_libraries\boost_1_55_0;..\External_libraries;..\External_libraries\DevIL-SDK-x64-1.7.8\include;..\External_libraries\OpenCTM-1.0.3\include;..\Engine</AdditionalIncludeDirectories>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

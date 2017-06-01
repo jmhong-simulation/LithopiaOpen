@@ -1,0 +1,42 @@
+CYLINDERICAL_LITHOPHANE
+0 ./test_stl ./test_images/haloween_half2.bmp 1024 260 40 2 2 5
+
+SPHERICAL_PROJECTION
+1 ./test_stl ./test_images/heart_shadow_lamp.bmp 911 650 1 100 5
+(두께의 단위가 안맞는 문제가 있어서 수정중)
+
+PLANAR_LITHOPHANE
+2 ./test_stl ./test_images/heart_shadow_lamp.bmp 911 650 3 5 100 5
+
+TRIANGULAR_PRISM
+3 ./test_stl ./test_images/haloween_half2.bmp 1024 260 40 2 2 5 5
+
+RECTANGULAR_PRISM
+4 ./test_stl ./test_images/haloween_half2.bmp 1024 260 40 2 2 5 5
+
+PENTAGONAL_PRISM
+5 ./test_stl ./test_images/haloween_half2.bmp 1024 260 40 2 2 5 5
+
+HEXAGONARL_PRISM
+6 ./test_stl ./test_images/haloween_half2.bmp 1024 260 40 2 2 5 5
+
+PLANE_WITH_BLACK_HOLES
+7 ./test_stl ./test_images/santa_connected.jpg 557 675 0.5 50 30
+
+PLANE_WITH_WHITE_HOLES
+8 ./test_stl ./test_images/lamb.png 557 675 0.5 50 30
+
+PLANE_KEY_RING
+9 ./test_stl ./test_images/jmhong_keyring1.bmp ./test_images/jmhong_keyring2.bmp ./test_images/jmhong_keyring3.bmp 809 500 1 3  0 70 5
+
+PLANE_LITHOPHANE_FREE
+10 ./test_stl ./test_images/freeform_litho.png 712 697 0.4 1.6 50 5
+
+CIRCULAR_TRUNCATED_CONE_LITHOPHANE
+11 ./test_stl ./test_images/haloween_half2.bmp 1024 260 40 80 2 2 5
+
+CURVED_CYLINDERICAL_LITHOPHANE
+12 ./test_stl ./test_images/hyunee_1920x366.png 1920 366 46 1 1.5 5
+
+FREEFORM_CURVED_CYLINDERICAL_LITHOPHANE
+13 ./test_stl ./test_images/freeform_curved_cylindrical_lithophane_one.png ./test_images/heart_shadow_lamp.bmp 960 247 0.75 2 0 40 2
